@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: UbantuB;
+  src: url(../Fonts/ubuntu.bold.ttf);
+}
+
+#LoginSignUpPage {
+  border: 2px solid red;
+  background: transparent url("../Asset/Vector.svg") 0% 0% no-repeat padding-box;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+#LoginSignUpPage #NavbarLogo {
+  border: 2px solid #09ff00;
+  height: 168rem;
+}
+
+#LoginSignUpPage #NavbarLogo a {
+  border: 2px solid white;
+  padding: 40rem 130rem 40rem;
+}
+
+#LoginSignUpPage #NavbarLogo #Logo {
+  border: 2px solid greenyellow;
+}
+
+#LoginSignUpPage #LoginSignUpArea {
+  border: 2px solid white;
+  width: 465rem;
+  height: 526rem;
+  margin: 0rem 170rem;
+  border-radius: 20rem;
+  -webkit-box-shadow: 0rem 3rem 6rem #00000029;
+          box-shadow: 0rem 3rem 6rem #00000029;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+#LoginSignUpPage #LoginSignUpArea #HeadingBlock {
+  border: 2px solid blue;
+  height: 140rem;
+  border-radius: 20rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #HeadingBlock p {
+  font-size: 36rem;
+  font-family: MontserratB;
+  width: 100%;
+  border: 2px solid red;
+  padding-top: 40rem;
+  padding-left: 33rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #HeadingBlock pre {
+  font-size: 22rem;
+  font-family: MontserratSB;
+  color: #09862D;
+  border: 2px solid yellow;
+  padding-left: 33rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock {
+  border: 2px solid green;
+  height: 386rem;
+  border-radius: 20rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form {
+  border: 2px solid orange;
+  padding: 31rem 33rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form input {
+  border: 2px solid black;
+  color: #858585;
+  font-size: 24rem;
+  margin-bottom: 15rem;
+  padding: 5rem;
+  width: 100%;
+  background-color: #f4f8fc;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Forgot_Checkbox {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid red;
+  font-size: 22rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Forgot_Checkbox #ForgetPassword {
+  font-family: UbantuB;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons {
+  font-size: 18rem;
+  border: 2px solid red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5rem 0rem;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #SignUpbutton {
+  border: 2px solid #09862D;
+  color: #09862D;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #Loginbutton {
+  background-color: #09862D;
+  color: white;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #Loginbutton, #LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #SignUpbutton {
+  padding: 9rem;
+  border-radius: 44rem;
+  width: 174rem;
+  text-align: center;
+  font-family: CeraB;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #Loginbuttoninsignup, #LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #SignUpbuttoninsignup {
+  padding: 9rem;
+  border-radius: 44rem;
+  width: 174rem;
+  text-align: center;
+  font-family: CeraB;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #Loginbuttoninsignup {
+  border: 2px solid #09862D;
+  color: #09862D;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Buttons #SignUpbuttoninsignup {
+  background-color: #09862D;
+  color: white;
+}
+
+#LoginSignUpPage #LoginSignUpArea #FormBlock form #Google_FB {
+  border: 2px solid black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10rem 0rem;
+}
+/*# sourceMappingURL=LoginSignUp.css.map */

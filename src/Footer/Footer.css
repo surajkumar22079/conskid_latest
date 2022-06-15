@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: CalibriR;
+  src: url(../Fonts/CALIBRI.TTF);
+}
+
+@font-face {
+  font-family: CalibriB;
+  src: url(../Fonts/CALIBRIB.TTF);
+}
+
+#Footer {
+  width: 100%;
+  height: 675rem;
+  position: absolute;
+  top: 5300rem;
+  background: #1A364E url("../Asset/Footer Map.svg") no-repeat center center;
+  background-size: 1573rem 492rem;
+}
+
+@media screen and (max-width: 949px) {
+  #Footer {
+    top: 5550rem;
+  }
+}
+
+#Footer img {
+  position: absolute;
+  width: 1574rem;
+  height: 492rem;
+  margin: 91rem 173rem !important;
+}
+
+#Footer .List {
+  list-style: none;
+}
+
+#Footer .List li {
+  color: white;
+  font-size: 23rem;
+  font-family: CalibriB;
+  padding: 10rem 0rem;
+  border-left: 5rem solid #A7DFF5;
+  padding-left: 24rem;
+}
+
+#Footer .List li a {
+  color: white;
+  text-decoration: none;
+}
+
+#Footer .box1 {
+  padding-top: 95rem;
+  padding-left: 121rem;
+}
+
+#Footer .box1 .content1 {
+  width: 429rem;
+}
+
+#Footer .box1 .content1 p {
+  font-size: 46rem;
+  font-family: CalibriR;
+  color: white;
+}
+
+#Footer .box1 .content1 #ContactUs {
+  width: 262rem;
+  height: 73rem;
+  background-color: #276684;
+  -webkit-box-shadow: 0px 3px 6px #00000052;
+          box-shadow: 0px 3px 6px #00000052;
+  border-radius: 7px;
+  font-family: CalibriB;
+  font-size: 46rem;
+  padding: 6rem 26rem 11rem 29rem;
+  margin: 45rem 0rem;
+  color: #fff;
+}
+
+#Footer .box1 .content1 #MailCall p {
+  font-size: 27rem;
+  font-family: CalibriR;
+  color: #a7dff5;
+}
+
+#Footer .box1 .content1 #MailCall p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#Footer .box1 .content1 #MailCall p a:visited {
+  color: #a7dff5 !important;
+}
+
+#Footer .box1 .content1 #SocialHandles {
+  margin-top: 36rem;
+}
+
+#Footer .box2 {
+  padding-top: 95rem;
+  padding-left: 214rem;
+}
+
+#Footer .box2 .content2 {
+  width: 80%;
+}
+
+#Footer .box2 .content2 #Solutions {
+  font-size: 38rem;
+  font-family: CalibriB;
+  color: white;
+}
+
+#Footer .box2 .content2 #ServiceList #ServiceHead {
+  font-size: 38rem;
+  font-family: CalibriR;
+  color: #A7DFF5;
+  margin: 13rem 0rem 28rem 0rem;
+}
+
+#Footer .box2 .content2 #ResourceList #ResourceHead {
+  font-size: 38rem;
+  font-family: CalibriR;
+  color: #A7DFF5;
+  margin: 13rem 0rem 13rem 0rem;
+}
+
+#Footer .box3 {
+  padding-top: 95rem;
+  padding-left: 135rem;
+}
+
+#Footer .box3 .content3 {
+  height: 408rem;
+  width: 60%;
+}
+
+#Footer .box3 .content3 #About {
+  font-family: CalibriB;
+  font-size: 38rem;
+  color: #A7DFF5;
+}
+
+#Footer .box3 .content3 #AboutList {
+  margin-top: 57rem;
+}
+/*# sourceMappingURL=Footer.css.map */

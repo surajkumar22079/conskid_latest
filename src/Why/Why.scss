@@ -1,0 +1,121 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: CalibriB;
+    src: url(../Fonts/CALIBRIB.TTF);
+}
+
+@font-face {
+    font-family: Opensan;
+    src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+#Why_Container{
+    
+    position: absolute;
+    top:2870rem;
+    border:1rem solid black;
+    justify-content: center;
+    background-color: #F5F5F5;
+
+    @media screen and (max-width:949px) {
+        &{
+            top:3180rem;
+        }
+    }
+    
+
+    #Why_Heading{
+      // border:3rem solid orange;
+        font-family: UbantuM;
+        font-size: 50rem;
+        text-align: center;
+        color:#164966;
+        padding-top: 10rem;
+    }
+
+    #Template_container{
+    //    border:2px solid dodgerblue;
+        height:450rem;
+        margin: 30rem 0rem;
+        width:74%;
+
+        .mySwiper{
+             border:2px dotted red;
+            
+            
+        }
+
+        .swiper-slide{
+            position: relative;
+            left:0rem;
+            margin:0rem !important
+        }
+        
+
+        
+                .Template{
+                    height: 100%;;
+                    
+                  // border:2px solid green;
+                    //background: url("../Asset/Group\ 239.svg") ;
+                    padding: 30rem 0rem ;;
+                   
+
+
+
+                    .HeadBlock{
+                        width:493rem;
+                       
+                        //  border:2px solid brown;
+                        position: relative;
+                        height: 100%;
+
+                        .Heading{
+                            font-size: 35rem;
+                            font-family: CalibriB;
+                            color:#000000;
+                            position: absolute;
+                            top:69rem;
+                            // border: 2px solid red;
+                            background-color: #E9EEFD;
+                            
+                        }
+
+                        .SomeText{
+                            font-family: Opensan;
+                            font-size: 24rem;
+                            color:#707070;
+                            text-align: left;
+                          // border:2px solid yellow;
+                            position:absolute;
+                            top:131.3rem;
+                        }
+                    }
+
+                    .vectorBlock{
+
+                        width:405rem;
+                    
+                    //    border:2px solid brown;
+                        height: 313rem;
+                       
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+
+                    }
+                   
+                    }
+    }
+}
+.swiper-pagination-bullet-active {
+    background-color: #029FA4;
+  }

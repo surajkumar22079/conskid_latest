@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#App_Container {
+  width: 100vw;
+  min-height: 5950rem;
+  background-color: #F5F5F5 !important;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  position: absolute;
+}
+
+#App_Container a #Nav_To_Top {
+  width: 70rem;
+  height: 70rem;
+  z-index: 100;
+  position: fixed;
+  bottom: 10rem;
+  right: 15rem;
+  font-size: 100rem;
+  color: white;
+  background-color: black;
+  display: none;
+  text-align: center;
+  border-radius: 10rem;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+#App_Container a #Nav_To_Top:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 10rem black;
+          box-shadow: 0 0 10rem black;
+  text-shadow: 0 0 5rem white;
+}
+/*# sourceMappingURL=App.css.map */

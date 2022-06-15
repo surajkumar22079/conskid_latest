@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: UbantuM;
+  src: url(../Fonts/ubuntu.medium.ttf);
+}
+
+@font-face {
+  font-family: GadugiB;
+  src: url(../Fonts/gadugib.ttf);
+}
+
+@font-face {
+  font-family: Opensan;
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpensanB;
+  src: url(../Fonts/OpenSans-Bold.ttf);
+}
+
+#Service_Container {
+  border: 4rem solid #ff1eff;
+  background-color: #F5F5F5;
+  position: absolute;
+  top: 1000rem;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20rem;
+}
+
+@media screen and (max-width: 960px) {
+  #Service_Container {
+    top: 1120rem;
+  }
+}
+
+#Service_Container #Service_Heading {
+  border: 2rem dotted orange;
+  font-size: 50rem;
+  color: #164966;
+  font-family: UbantuM;
+  text-align: center;
+  margin-top: 25rem;
+}
+
+#Service_Container #Conskid_define_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Conskid_define_container #Conskid_define_content {
+  color: #707070;
+  font-size: 28rem;
+  width: 892rem;
+  margin: 41rem 0rem 41rem 0rem !important;
+  text-align: center;
+}
+
+#Service_Container #Conskid_define_container #Service_Logo {
+  width: 773rem;
+  height: 257rem;
+}
+
+#Service_Container #Service_Template_container {
+  border: 4rem solid yellow;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Service_Template_container #Template_container {
+  border: 2px solid dodgerblue;
+  width: 1654rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template {
+  width: 480rem;
+  height: 300rem;
+  margin: 20rem 20rem 0rem;
+  background-color: white;
+  -webkit-box-shadow: 0rem 3rem 6rem #00000029;
+          box-shadow: 0rem 3rem 6rem #00000029;
+  border-radius: 10rem;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .DP_Logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .DP_Logo img {
+  margin: 15rem 0rem 0rem 0rem;
+  width: 203rem;
+  height: 143rem;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content {
+  height: 45%;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content p {
+  width: 100%;
+  font-size: 30rem;
+  font-family: GadugiB;
+  text-align: center;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content span {
+  font-family: GadugiB;
+  color: #707070;
+  text-align: center;
+  font-size: 18rem;
+  width: 100%;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content .ButtonContainer {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Service_Container #Service_Template_container #Template_container .Template .Template_content #TemplateButton {
+  background-color: #E15B22;
+  border-radius: 4rem;
+  font-family: GadugiB;
+  font-size: 18rem;
+  color: white !important;
+  width: 155rem;
+  height: 36rem;
+  border: none;
+  cursor: pointer;
+}
+
+#WhatConskid {
+  border-radius: 20rem;
+  position: relative;
+  top: -102rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 12px #00000029;
+          box-shadow: 0px 3px 12px #00000029;
+}
+
+#ourservicestext {
+  font-family: UbantuM;
+  margin: 10rem 0rem;
+}
+/*# sourceMappingURL=Services.css.map */

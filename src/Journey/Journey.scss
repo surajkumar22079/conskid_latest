@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/FontsFree-Net-Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: MontserratB;
+    src: url(../Fonts/FontsFree-Net-Montserrat-Bold-1.ttf);
+}
+
+
+@font-face {
+    font-family: CalibriR;
+    src: url(../Fonts/CALIBRI.TTF);
+}
+
+
+#Journey{
+    
+     border:4rem solid black;
+    position: absolute;
+    top:3450rem;
+    @media screen and (max-width:949px) {
+        &{
+            top:3750rem;
+        }
+    }
+
+
+    #Journey_Heading{
+        color:#164966;
+        font-family: UbantuM;
+        font-size: 70rem;
+        text-align: center;
+        //  border:1rem solid orangered;
+        width:100%;
+        align-self: flex-start;
+        margin-bottom: 50rem;
+    }
+    #Journey_vector{
+        height: 892rem;
+      
+    //  border:4rem solid greenyellow;
+        justify-content: center;
+    
+      #vector{  
+
+        // border:4rem dotted magenta;
+        width: inherit;
+        height: inherit;
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+    }
+}
+
+
+
+#Testimonial{
+     border:1rem solid magenta;
+    height: 910rem;
+    position:absolute;
+    top:4500rem;
+    align-content: flex-start;
+
+    @media screen and (max-width:948px) {
+        &{
+            top:4780rem;
+        }
+    }
+
+
+    #Testimonial_Heading{
+        font-size: 70rem;
+        font-family: UbantuM;
+        color:#164966;
+        text-align: center;
+        //  border:1rem solid orange;
+       
+    }
+
+    #Testimonial_Carousel{
+          border:4rem solid dodgerblue;
+        height:90%;
+      
+        
+    }
+}
+.swiper {
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+  
+    text-align: center;
+    font-size: 18rem;
+     border: 2px solid green;
+    padding-top: 3%;
+    margin:0px 20rem ;
+    position: relative;
+    left:-100rem;
+    
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .Card{
+      width:535rem;
+
+     
+
+
+      height:644rem;
+        border:2px solid dodgerblue;
+      box-shadow: 0px 0px 80px #0000001b;
+      position: relative;
+      margin-bottom: 40rem;
+
+      @media screen and (max-width:947px) {
+          &{
+            margin: 0rem 30rem;
+          }
+      }
+
+      
+
+      .Card_Text_Holder{
+        border:2px solid yellow;
+        padding:52rem 0rem 0rem 78rem;
+
+        @media screen and (max-width:947px) {
+            &{
+                padding:0% 0rem 0rem 5% ;
+               
+            }
+        }
+
+      
+
+
+        position: relative;
+        font-size: 40rem;
+
+    }
+
+    .Name_Holder{
+        //  border:2px solid greenyellow;
+        height:220rem;
+        margin-top: 60rem;
+        background: url("../Asset/Path399.svg") no-repeat;
+        background-size: contain;
+        position: relative;
+
+       picture img{
+            width:116rem;
+            height:116rem;
+            left:203rem;
+            position: absolute;
+            // border:2px solid red;
+
+            @media screen and (max-width:947px) {
+                &{
+                    left:37.5%
+                }
+                
+            }
+            border-radius: 50%;
+            top:-73rem;
+        }
+
+div{
+            
+            color:black;
+            font-size: 20rem;
+            color:white;
+            
+
+            p{
+                padding-top: 94rem;
+                //  border:2px solid red;
+                font-family: MontserratB;
+            }
+
+            span{
+                
+                font: normal normal normal 18rem/22rem CalibriR;
+           
+            }
+        }
+      
+        
+    }
+      
+
+      .Card_Content{
+          font-size:20rem;
+          font-family:Montserrat ;
+          line-height: 1.3;
+          color:#000000;
+          width:378rem;
+          height:315rem;
+        //    border:2px solid orangered;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          overflow: hidden;
+         
+         
+      }
+  }
