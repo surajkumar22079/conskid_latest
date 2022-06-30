@@ -16,7 +16,7 @@ const Footer = () => {
 
                 <Grid item xs={4} className="box1">
                     <Grid item xs={12} className="content1">
-                        <p>Email your queries <br />or get in touch with us</p>
+                        <p className='para'>Email your queries <br />or get in touch with us</p>
                         <div id="ContactUs">Contact Us</div>
                     
                         <Grid id="MailCall">

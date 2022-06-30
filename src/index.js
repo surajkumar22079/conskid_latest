@@ -15,7 +15,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact component={App} />
       <Route path="/Log In" exact component={LoginPage} />
-      <Route path="/Sign Up" exact component={SignUpPage} />
+      <Route path="/Sign Up" exact component={ComingSoon} />
       <Route path="/Contact us" exact component={ComingSoon} />
       <Route path="/About us" exact component={ComingSoon} />
       <Redirect path="*" to="" />
