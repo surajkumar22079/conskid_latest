@@ -21,7 +21,7 @@ const Footer = () => {
                     
                         <Grid id="MailCall">
                             <p><MailIcon style={{fontSize:"30rem",color:"white"}}/> <a href="mailto:info@conskid.com">info@conskid.com</a></p>
-                            <p><CallIcon style={{fontSize:"30rem",color:"white"}}/> 9582890202</p>
+                            <p><CallIcon style={{fontSize:"30rem",color:"white"}}/> +919024838979</p>
                         </Grid>
 
                         <Grid id="SocialHandles">
