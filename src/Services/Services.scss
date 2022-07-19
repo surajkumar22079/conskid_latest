@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: UbantuM;
+    src: url(../Fonts/ubuntu.medium.ttf);
+}
+
+@font-face {
+    font-family: GadugiB;
+    src: url(../Fonts/gadugib.ttf);
+}
+
+@font-face {
+    font-family: Opensan;
+    src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: OpensanB;
+    src: url(../Fonts/OpenSans-Bold.ttf);
+}
+
+
+
+#Service_Container{
+   
+  border:4rem solid rgb(255, 30, 255);
+  background-color: #F5F5F5;
+    position:absolute;
+    top:1000rem;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20rem;
+
+    @media screen and (max-width:960px) {
+        &{
+            top: 1120rem;
+        }
+    }
+
+
+    #Service_Heading{
+         border:2rem dotted orange;
+        font-size: 50rem;
+        color:#164966;
+        font-family: UbantuM;
+        text-align: center;
+        margin-top:25rem;
+    }
+
+    #Conskid_define_container{
+        justify-content: center;
+
+        #Conskid_define_content{
+            color:#707070;
+        font-size: 28rem;
+        //  border:4rem solid black;
+        width:892rem;
+        
+        margin:41rem 0rem 41rem 0rem !important;
+        text-align: center;
+        
+        }
+
+        #Service_Logo{
+        
+            // border:2rem solid red;
+            width:773rem;
+            height:257rem;
+           
+        }
+        
+    }
+
+    #Service_Template_container{
+      
+      border:4rem solid yellow;
+        
+        justify-content: center;
+        
+        #Template_container{
+
+            border:2px solid dodgerblue;
+          
+            width:1654rem;
+            justify-content: center;
+
+
+            .Template{
+
+                width:480rem;
+                height: 300rem;
+                margin:20rem 20rem 0rem;
+                background-color:white;
+                box-shadow: 0rem 3rem 6rem #00000029;
+                border-radius: 10rem;
+                // border:2px solid magenta;
+               
+
+                .DP_Logo{
+
+                    // border:2rem solid greenyellow;
+                    justify-content: center;
+                
+                    img{
+                        margin:15rem 0rem 0rem 0rem;
+                        width:203rem;
+                        height:143rem;
+                        // border:2px solid black;
+                    }
+                }
+
+                .Template_content{
+                   
+                  
+                    //  border:2px solid orangered;
+                    height: 45%;
+                  
+
+                    p{
+                       width:100%;
+                        font-size: 30rem;
+                        font-family: GadugiB;
+                        // border: 2rem solid red;
+                    //  background-color: #164966;
+                         text-align: center;
+
+                    }
+
+                    span{
+
+                        // border:2rem solid grey;
+                        font-family:GadugiB ;
+                        color:#707070;
+                        text-align: center;
+                        font-size: 18rem;
+                        width:100%;
+
+ 
+                    }
+
+                    .ButtonContainer{
+                        // border:2rem solid Yellow;
+                        width:100%;
+                     
+                        justify-content:center;
+                    }
+
+                   #TemplateButton{
+                       background-color: #E15B22;
+                       border-radius: 4rem;
+                       font-family: GadugiB;
+                       font-size: 18rem;
+                       color:white !important;
+                       width:155rem;
+                       height:36rem;
+                       border: none;
+                       cursor: pointer;
+                   }
+                }
+            }
+        }
+    }
+}
+
+#WhatConskid{
+
+    // border: 2px solid black;
+    border-radius: 20rem;
+    position: relative;
+    top:-102rem;
+    background-color: white;
+    box-shadow: 0px 3px 12px #00000029;
+}
+
+#ourservicestext{
+    font-family: UbantuM;
+    margin:10rem 0rem ;
+}

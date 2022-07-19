@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: UbantuB;
+    src: url(../Fonts/ubuntu.bold.ttf);
+}
+
+
+#LoginSignUpPage{
+    border: 2px solid red;
+    background: transparent url('../Asset/Vector.svg') 0% 0% no-repeat padding-box;
+    width:100vw;
+    height:100vh;
+    background-size: cover ;
+    display: flex;
+    justify-content: right;
+
+    #NavbarLogo{
+        border:2px solid rgb(9, 255, 0);
+        height:168rem;
+
+        a{
+        border:2px solid white;
+        padding:40rem 130rem 40rem;
+        }
+    
+        #Logo{
+              border:2px solid greenyellow;
+        }
+    }
+    
+
+
+    #LoginSignUpArea{
+        border:2px solid white;
+        width:465rem;
+        height:526rem;
+        margin: 0rem 170rem;
+        border-radius: 20rem;
+        box-shadow: 0rem 3rem 6rem #00000029;
+        background-color: white;
+        
+        display: flex;
+        align-content: flex-start;
+
+        #HeadingBlock{
+            border:2px solid blue;
+            height:140rem;
+            border-radius: 20rem;
+
+            p{
+                font-size: 36rem;
+                font-family: MontserratB;
+                width:100%;
+                border:2px solid red;
+                padding-top: 40rem;
+                padding-left: 33rem;
+            }
+
+            pre{
+                font-size: 22rem;
+                font-family: MontserratSB;
+                color:#09862D;
+                border:2px solid yellow;
+                padding-left:33rem
+            }
+        }
+
+        #FormBlock{
+            border:2px solid green;
+            height:386rem;
+            border-radius: 20rem;
+
+            form{
+                border:2px solid orange;
+                padding:31rem 33rem ;
+
+                input{
+                    border:2px solid black;
+                    color:#858585;
+                    font-size: 24rem;
+                    margin-bottom: 15rem;
+                    padding:5rem;
+                    width:100%;
+                    background-color:rgb(244, 248, 252);
+
+
+
+                   
+                
+                }
+
+                #Forgot_Checkbox{
+                   justify-content: space-between;
+                    border: 2px solid red;
+                    font-size: 22rem;
+
+                    #ForgetPassword{
+                        font-family: UbantuB;
+                    }
+
+
+                }
+
+                #Buttons{
+                      
+                    font-size: 18rem;
+                    border:2px solid red;
+                    justify-content: space-between;
+                    margin:5rem 0rem;
+
+                    #SignUpbutton{
+                        border:2px solid #09862D;
+                        color:#09862D;
+                    }
+
+                    #Loginbutton{
+                        // border:2px solid black;
+                        background-color: #09862D;
+                        color:white;
+                    }
+
+                    #Loginbutton,#SignUpbutton{
+                        padding:9rem;
+                        border-radius: 44rem;
+                        width:174rem;
+                        text-align: center;
+                        font-family: CeraB;
+                    }
+
+                    #Loginbuttoninsignup,#SignUpbuttoninsignup{
+                        padding:9rem;
+                        border-radius: 44rem;
+                        width:174rem;
+                        text-align: center;
+                        font-family: CeraB;
+                    }
+
+
+                   #Loginbuttoninsignup{
+                    border:2px solid #09862D;
+                    color:#09862D;
+
+                   }
+
+                   #SignUpbuttoninsignup{
+                    background-color: #09862D;
+                    color:white;
+
+                   }
+
+
+                }
+
+                #Google_FB{
+                    border: 2px solid black;
+                    justify-content: center;
+                    padding:10rem 0rem;
+                }
+            }
+
+        }
+
+        
+    }
+
+   
+   
+}
