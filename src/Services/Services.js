@@ -35,11 +35,7 @@ const Services = () => {
 
                 <Grid xs={12}  id="Service_Heading" >
                     Benefits for you
-<<<<<<< HEAD
                     <p style={{color:"black",fontSize:"30rem"}} id="ourservicestext"> &#40; OUR SERVICES &#41;</p>
-=======
-                    <p style={{color:"black",fontSize:"30rem"}} id="ourservicestext"> &#40; Our Services &#41;</p>
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
                 </Grid>
                 <Grid xs={12} item container id="Service_Template_container" >
 
@@ -66,8 +62,4 @@ const Services = () => {
     )
 }
 
-<<<<<<< HEAD
 export default Services
-=======
-export default Services
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86

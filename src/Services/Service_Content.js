@@ -5,11 +5,7 @@ const service_contents = [
     {
         Heading:"Internship Pool",
         Logo:"../Asset/Component 56 – 1.svg",
-<<<<<<< HEAD
         Description:"Explore your career opportunities",
-=======
-        Description:"Discover your career journey accurately. Plan before you hustle!",
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
         Link:"https://forms.gle/VKdpTjGXXDD1yJDg7"
     }, {
         Heading:"Resume Builder",
@@ -49,8 +45,4 @@ const service_contents = [
     }
 ]
 
-<<<<<<< HEAD
 export default service_contents;
-=======
-export default service_contents;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86

@@ -42,8 +42,4 @@ const Template = (props) => {
     )
 }
 
-<<<<<<< HEAD
 export default Template
-=======
-export default Template
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86

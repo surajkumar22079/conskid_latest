@@ -9,13 +9,10 @@
   font-family: Montserrat;
   src: url(../Fonts/FontsFree-Net-Montserrat-Medium.ttf);
 }
-<<<<<<< HEAD
 @font-face {
   font-family: Seoge UI Regular;
   src: url(../Asset/seoge_UI.ttf);
 }
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
 
 @font-face {
   font-family: MontserratB;
@@ -58,21 +55,14 @@
 }
 
 #Journey #Journey_vector #vector {
-<<<<<<< HEAD
   display: flex;
     justify-content: center;
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   width: inherit;
   height: inherit;
 }
 
 #Journey #Journey_vector #vector img {
-<<<<<<< HEAD
   width: 75%;
-=======
-  width: 100%;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   height: 100%;
 }
 
@@ -203,11 +193,7 @@
 }
 
 .Card .Name_Holder div span {
-<<<<<<< HEAD
   font: normal normal normal 18rem/22rem Seoge UI Regular;
-=======
-  font: normal normal normal 18rem/22rem CalibriR;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
 }
 
 .Card .Card_Content {

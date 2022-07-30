@@ -1,16 +1,10 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-<<<<<<< HEAD
           font-family: 'Source Sans Pro', sans-serif;
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
 }
 
 @font-face {

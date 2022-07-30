@@ -65,7 +65,6 @@ const Navbar = () => {
                     {/* style={{border:"2px solid red"}} */}
                 <div  >
                     {/* style={{border:"2px solid green"}} */}
-<<<<<<< HEAD
                     <Button size="small" title="Account"  style={{ position: "absolute", left: "60rem", top: "2rem", borderRadius: "25rem" }} onClick={ToggleProfile}><BusinessCenterIcon style={{ fontSize: "45rem"  }}  className= "icon_nav" /></Button>
                     {
                             ProfileDrop ? <List Number="3" /> : ""
@@ -75,17 +74,6 @@ const Navbar = () => {
 
                 </div>
                     <img src={Profile} alt="ProfileDP" id="ProfileDP" title="Profile Picture"  className= "icon_nav"/>
-=======
-                    <Button size="small" title="Account"  style={{ position: "absolute", left: "60rem", top: "2rem", borderRadius: "25rem" }} onClick={ToggleProfile}><BusinessCenterIcon style={{ fontSize: "45rem" }} /></Button>
-                    {
-                            ProfileDrop ? <List Number="3" /> : ""
-                    }
-                    <Button size="small"  title="Notification" style={{ position: "absolute", left: "-15rem", top: "2rem", borderRadius: "25rem" }} ><NotificationsIcon style={{ fontSize: "45rem" }} /></Button>
-
-
-                </div>
-                    <img src={Profile} alt="ProfileDP" id="ProfileDP" title="Profile Picture" />
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
                  
                 </div>
 

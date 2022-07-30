@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
 * {
   margin: 0;
   padding: 0;
@@ -76,17 +73,10 @@
 
 #Why_Container #Template_container .Template .HeadBlock .Heading {
   font-size: 35rem;
-<<<<<<< HEAD
   font-family: 'Titillium Web', sans-serif;
   color: #000000;
   position: absolute;
   top: 50rem; 
-=======
-  font-family: CalibriB;
-  color: #000000;
-  position: absolute;
-  top: 69rem; 
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   background-color: #E9EEFD;
 }
 

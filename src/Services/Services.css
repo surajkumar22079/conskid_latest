@@ -6,13 +6,10 @@
 }
 
 @font-face {
-<<<<<<< HEAD
   font-family: Seoge UI Regular;
   src: url(../Asset/seoge_UI.ttf);
 }
 @font-face {
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   font-family: UbantuM;
   src: url(../Fonts/ubuntu.medium.ttf);
 }
@@ -72,11 +69,7 @@
   color: #707070;
   font-size: 28rem;
   width: 892rem;
-<<<<<<< HEAD
   margin: 15rem 0rem 41rem 0rem !important;
-=======
-  margin: 41rem 0rem 41rem 0rem !important;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   text-align: center;
 }
 
@@ -102,11 +95,7 @@
 
 #Service_Container #Service_Template_container #Template_container .Template {
   width: 480rem;
-<<<<<<< HEAD
   height: 323rem;
-=======
-  height: 300rem;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   margin: 20rem 20rem 0rem;
   background-color: white;
   -webkit-box-shadow: 0rem 3rem 6rem #00000029;
@@ -131,10 +120,7 @@
 }
 
 #Service_Container #Service_Template_container #Template_container .Template .Template_content p {
-<<<<<<< HEAD
   height: 17%;
-=======
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   width: 100%;
   font-size: 30rem;
   font-family: GadugiB;
@@ -142,7 +128,6 @@
 }
 
 #Service_Container #Service_Template_container #Template_container .Template .Template_content span {
-<<<<<<< HEAD
   font-family: Segoe UI Regular;
   color: #707070;
   text-align: center;
@@ -150,13 +135,6 @@
   width: 90%;
     margin: 0 auto;
     margin-bottom: 12.2rem;
-=======
-  font-family: GadugiB;
-  color: #707070;
-  text-align: center;
-  font-size: 18rem;
-  width: 100%;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
 }
 
 #Service_Container #Service_Template_container #Template_container .Template .Template_content .ButtonContainer {
@@ -179,16 +157,10 @@
 }
 
 #WhatConskid {
-<<<<<<< HEAD
   padding-bottom: 59rem !important;
   border-radius: 20rem;
   position: relative;
   top: -53rem;
-=======
-  border-radius: 20rem;
-  position: relative;
-  top: -102rem;
->>>>>>> a604c266835eea5004b39a66a5007263bc672e86
   background-color: white;
   -webkit-box-shadow: 0px 3px 12px #00000029;
           box-shadow: 0px 3px 12px #00000029;
