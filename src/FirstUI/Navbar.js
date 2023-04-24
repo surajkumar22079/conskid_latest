@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Grid from "@material-ui/core/Grid"
 import "./FirstUI.css"
 import Logo from "../Asset/logo_white1.png"
+import Jobternship from "../Asset/Jobternship.png"
 import Button from '@material-ui/core/Button';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -43,7 +44,7 @@ const Navbar = () => {
         <>
             <Grid container id="Navbar" >
 
-                <div id="Logo_Div"><img src={Logo} alt="Logo" id="Conskid_Logo" /></div>
+                <div id="Logo_Div"><img src={Jobternship} alt="Logo" id="Conskid_Logo" /></div>
 
                 {/* <Grid container id="Service_Resource_Button">
                     <div >

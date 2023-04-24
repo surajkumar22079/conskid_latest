@@ -22,10 +22,10 @@ const Services = () => {
 
 
                 <Grid id="WhatConskid" md={6} style={{paddingBottom:"30rem"}}>
-                    <Grid md={12}  item id="Service_Heading" >What is conskid?</Grid>
+                    <Grid md={12}  item id="Service_Heading" >What is Jobternship?</Grid>
 
                     <Grid md={12}  item container id="Conskid_define_container">
-                        <Grid item id="Conskid_define_content" >CONSKID is a comprehensive online platform to support young undergrad aspirants in achieving career milestones. We strive to empower the learners through skill-enhancing services & industrial exposure suited to their skills & interest.</Grid>
+                        <Grid item id="Conskid_define_content" >JOBTERNSHIP is a comprehensive online platform to support young undergrad aspirants in achieving career milestones. We strive to empower the learners through skill-enhancing services & industrial exposure suited to their skills & interest.</Grid>
 
                         <Grid md={12}  container item id="Service_Logo" style={{ position: "relative", display: "flex", justifyContent: "center" }} ><img src={Logo} style={{ height: "100%", width: "100%", position: "absolute" }} /></Grid>
                         {/* border:"2px dotted red", */}

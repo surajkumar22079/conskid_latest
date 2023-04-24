@@ -24,7 +24,7 @@ const Card = (props) => {
                     <div>
                         <p>{props.Name}</p>
                         {
-                            (props.Company!="")?<span>{props.Institute}<br/>Intern At {props.Company}</span>:<span>{props.Institute}<br/>Member At Conskid</span>
+                            (props.Company!="")?<span>{props.Institute}<br/>Intern At {props.Company}</span>:<span>{props.Institute}<br/>Member At Jobternship</span>
                         }
                         
                         

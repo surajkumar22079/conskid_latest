@@ -9,6 +9,8 @@ import LoginPage from "./Login/Login"
 import ComingSoon from "./ComingSoon/ComingSoon"
 
 import SignUpPage from "./Login/SignUp";
+import ForCompany from "./ForCompany/For_company.js"
+import ForStudent from "./ForStudent/For_student.js"
 
 ReactDOM.render(
   <Router>
@@ -16,6 +18,8 @@ ReactDOM.render(
       <Route path="/" exact component={App} />
       <Route path="/Log In" exact component={ComingSoon} />
       <Route path="/Sign Up" exact component={ComingSoon} />
+      <Route path="/ForCompany" exact component={ForCompany} />
+      <Route path="/ForStudent" exact component={ForStudent} />
       <Route path="/Contact us" exact component={ComingSoon} />
       <Route path="/About us" exact component={ComingSoon} />
       <Redirect path="*" to="" />

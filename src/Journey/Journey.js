@@ -12,7 +12,7 @@ const Journey = () => {
     return (
         <>
             <Grid container id="Journey" xs={12}>
-                <Grid item xs={12} id="Journey_Heading">Journey with Conskid</Grid>
+                <Grid item xs={12} id="Journey_Heading">Journey with Jobternship</Grid>
                 <Grid item container id="Journey_vector" xs={12}>
                     <Grid item xs={10} id="vector"><img src={Journey_vector} alt="Journey_with_conskid" title="Journey With Conskid" /></Grid>
                 </Grid>

@@ -1,0 +1,112 @@
+/* *{ */
+  /* color: #fff; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Kumbh Sans', sans-serif; */
+/* } */
+.nav_form{
+  background-color: #068d97;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.nav_form img{
+  width: 5%;
+  height: 37%;
+  padding: 12px;
+}
+.nav_form h1{
+  font-size: 42rem;
+  color: white;
+}
+
+.formField label{
+  color: black;
+  font-size: 12px;
+}
+
+.formHeading {
+  color: #0c0b0b;
+  display: flex;
+  z-index: 1;
+}
+.formHeading h1 {
+  z-index: 1;
+  font-size: 25px;
+  margin: 10px 125px;
+  width: 100%;
+  position: flex
+}
+
+.form {
+  color: #0c0b0b;
+  margin-left: 5px;
+  /* margin-right: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formName {
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #0c0b0b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formField input{
+    width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+}
+
+.white{
+  color: #fff;
+}
+.formSkill {
+  margin-top: 20px;
+}
+
+.textSkill{
+  color: #0c0b0b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Example styling for TextForm component */
+.TextForm {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.TextForm input[type="text"] {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.TextForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
